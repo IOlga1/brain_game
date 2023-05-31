@@ -1,0 +1,31 @@
+@import "../../style/variables.scss";
+
+
+.connecting_second_player_page_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.sharing_link_input_wrap {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.73);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+}
+
+
+.sharing_link {
+    user-select: text;
+    cursor: text;
+}
+
+.copy_img {
+    width: 20px;
+    height: 20px;
+    // background-color: white;
+    cursor: pointer;
+}

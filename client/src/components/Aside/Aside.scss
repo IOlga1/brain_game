@@ -1,0 +1,11 @@
+@import "../../style/variables.scss";
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: $asideBackground;
+    padding: 5px;
+    box-shadow: 0px 0 30px 5px $shadowDefault,
+                inset 1px 1px 8px 2px $shadowDefault;
+    min-width: 25px;
+}

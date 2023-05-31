@@ -1,0 +1,22 @@
+@import "../../../../style/variables.scss";
+
+.button_main {
+    box-shadow: 0 0 18px 10px $shadowLight;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #122D41;
+    color: rgba(255, 255, 255, 0.73);
+    font-size: 32px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 100ms ease-in-out;
+
+    &:active {
+        transition: all 150ms ease-in-out;
+        box-shadow: 0 0 20px 6px $shadowLight;
+        transform: scale(0.97);
+    }
+}
